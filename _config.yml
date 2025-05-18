@@ -9,27 +9,27 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Dohyeon Kim"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Dohyeon Kim"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://dxdykim.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "dxdykim/dxdykim.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile_dohyeon.png"
+  name             : "Dohyeon Kim"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Hi, I'm a 4th (2nd) year PhD Candidate in Caltech CMS department (Applied and Computational Mathematics option)"
+  location         : "Pasadena"
+  employer         : "California Institute of Technology (Caltech)"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "dohyeon@caltech.edu" 
 
   # Academic websites
   academia         : # URL
@@ -221,7 +221,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
