@@ -15,4 +15,4 @@ My current research lies at the intersection of **interacting particle systems**
 
 About me
 ======
-Prior to joining Caltech, I earned a **BBA in Business Management** and a **BS in Mathematics** from Yonsei University. I began in business,  but after taking my first math class in junior year, I found myself wanting to learn more. I ended up adding a second major and took advanced courses in real analysis, PDEs, topology, abstract algebra, and more—mainly out of curiosity, without planning to pursue math in graduate school at the time. 
+Prior to joining Caltech, I receievd a **BBA in Business Management** and a **BS in Mathematics** Summa Cum Laude from Yonsei University, where I was also the valedictorian among business graduates. I began in business,  but after taking my first math class in junior year, I found myself wanting to learn more. I ended up adding a second major and took advanced courses in real analysis, PDEs, topology, abstract algebra, and more—mainly out of curiosity, without planning to pursue math in graduate school till the last semester in college.
