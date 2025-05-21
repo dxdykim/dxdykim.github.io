@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a PhD candidate in Applied & Computational Mathematics at Caltech. I’ve been working with Franca Hoffmann since 2023 May on mean-field theory, interacting particle systems, and collective dynamics. Earlier, I was advised by Oscar Bruno on high-performance numerical methods for PDE, which shaped my appreciation for both analytical structure and computational performance.
+I’m a PhD candidate in Applied & Computational Mathematics at Caltech. I’ve been working with Franca Hoffmann since 2023 May on mean-field theory, interacting particle systems, and collective dynamics. Earlier, till the end of 2022, I was advised by Oscar Bruno on high-performance numerical methods for PDE, which shaped my appreciation for both analytical structure and computational performance.
 
 Research
 ======
