@@ -1,6 +1,6 @@
 ---
 title: "Uniform-in-time propagation of chaos for Consensus-Based Optimization"
-collection: Preprint
+collection: publications
 category: Preprint
 permalink: /publications/2025-05-13-paper-title-number-1
 excerpt: 'Submitted'
