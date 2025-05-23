@@ -1,7 +1,7 @@
 ---
 title: "Mono-cluster flocking and uniform-in-time stability of the discrete Motsch-Tadmor model"
-collection: Preprints
-category: manuscripts
+collection: publications
+category: Preprint
 permalink: /publication/2024-07-19-paper-title-number-3
 excerpt: 'Submitted'
 date: 2024-07-19
