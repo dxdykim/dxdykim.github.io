@@ -1,7 +1,7 @@
 ---
 title: "MirrorCBO: A consensus-based optimization method in the spirit of mirror descent"
-collection: Preprints
-category: manuscripts
+collection: publications
+category: Preprint
 permalink: /publication/2025-01-21-paper-title-number-2
 excerpt: 'Submitted'
 date: 2025-01-21
