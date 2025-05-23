@@ -4,11 +4,9 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/2022-fall-teaching-1
 venue: "Caltech, CMS"
-date: 2022 Fall
+date: 2022-Fall
 location: "Caltech, CMS"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
 
 Instructor
 ======
