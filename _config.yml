@@ -152,7 +152,7 @@ analytics:
   goatcounter:
     # Account name from https://YOUR-CODE.goatcounter.com; leave blank until registered.
     # Keep the dashboard set to "Only logged in users" in GoatCounter.
-    code                 : ""
+    code                 : "dxdykim"
   google:
     tracking_id          :
 
