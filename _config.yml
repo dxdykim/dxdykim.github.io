@@ -148,7 +148,11 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "goatcounter" # Set to false to disable analytics.
+  goatcounter:
+    # Account name from https://YOUR-CODE.goatcounter.com; leave blank until registered.
+    # Keep the dashboard set to "Only logged in users" in GoatCounter.
+    code                 : ""
   google:
     tracking_id          :
 

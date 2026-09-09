@@ -26,6 +26,29 @@ GitHub에서 해당 파일을 열고 연필 버튼으로 수정한 뒤 Commit ch
 
 논문을 추가하려면 `PUBLICATIONS` 주석 아래의 `<li>…</li>`를 복사하고 제목·저자·상태·링크를 함께 바꿉니다. CSS의 `counter-reset: papers 7` 값은 논문 수 + 1로 유지합니다. 예정된 일정은 `EVENTS` 주석 아래에서 관리하고, 페이지 맨 아래 업데이트 날짜도 함께 수정하세요.
 
+## 방문 통계 (GoatCounter)
+
+방문 추이, 페이지별 조회, 유입 경로 등을 GoatCounter에서 확인할 수 있도록 연결 코드를 준비했습니다. `_config.yml`의 `analytics.goatcounter.code`가 비어 있는 동안에는 분석 스크립트를 불러오지 않으며, 방문 집계도 시작되지 않습니다.
+
+### 처음 연결하기
+
+1. [GoatCounter 가입 페이지](https://www.goatcounter.com/signup)에서 계정을 만듭니다. Account name은 원하는 이름을 선택하고, Site domain에는 `www.doh-yeon-kim.com`을 입력합니다. [이용약관](https://www.goatcounter.com/help/terms)에 따라 최초 가입은 본인이 직접 해야 합니다.
+2. GoatCounter의 **Settings → Site settings → Dashboard viewable by**를 **Only logged in users**로 둡니다. **Allow adding visitor counts on your website**도 체크하지 않습니다.
+3. GitHub에서 `_config.yml`을 열고 `analytics` 아래 `goatcounter`의 `code: ""`에 가입 시 정한 Account name만 입력합니다. 전체 주소나 `/count`를 넣지 않습니다. 비밀번호나 API 토큰은 필요하지 않습니다.
+4. Commit changes 후 GitHub Pages 배포가 끝나면 집계가 시작됩니다. 가입한 `https://계정이름.goatcounter.com`에서 로그인해 통계를 봅니다. 홈페이지에는 방문자 수나 통계 링크가 표시되지 않습니다.
+
+첫 화면과 Others 페이지, 기존 Jekyll 상세 페이지에 같은 설정이 적용됩니다. 개발 환경에서는 집계하지 않습니다. 페이지 통계는 URL 경로별로 묶습니다. PDF를 직접 여는 방문에는 이 스크립트가 실행되지 않습니다.
+
+### 내 방문 제외하기
+
+연결 후 사용하는 브라우저에서 `https://www.doh-yeon-kim.com/#toggle-goatcounter`를 열고 팝업에서 이 브라우저의 집계가 비활성화되었는지 확인합니다. 주소만 수정해서 팝업이 나타나지 않았을 때만 새로고침합니다. 다른 브라우저나 기기에서는 각각 설정해야 하며, 같은 링크를 다시 실행하면 설정이 반대로 전환됩니다. [공식 안내](https://www.goatcounter.com/help/skip-dev)
+
+### 나중에 통계 공개하기
+
+공개하기로 결정하면 GoatCounter에서 **Dashboard viewable by → Anyone**으로 바꿀 수 있습니다. 홈페이지에 방문자 수를 표시하는 기능은 별도로 켜야 합니다. 현재는 비공개 대시보드를 전제로 하며, 통계 데이터나 로그인 정보는 GitHub 저장소에 저장하지 않습니다.
+
+집계를 중지하려면 `_config.yml`의 `analytics.provider`를 `false`로 바꾸고 배포합니다. 이전에 쌓인 통계의 공개 여부와 삭제는 GoatCounter에서 관리합니다.
+
 ## 배포 구조
 
 - 기존 `master` 브랜치와 GitHub Pages/Jekyll 배포를 사용합니다.
