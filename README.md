@@ -16,6 +16,11 @@ Homepage: https://dxdykim.github.io/
 | `assets/teaching/acm270-lecture1.pdf` | ACM 270 Lecture 1 강의록 (Draft — under revision) |
 | `assets/teaching/acm270-lecture2.pdf` | ACM 270 Lecture 2 강의록 (Draft — under revision) |
 | `_pages/cv.md` | CV PDF로 연결하는 기존 `/cv/` 경로 |
+| `_pages/others.html` | Others: 세 개의 개인 소개 글 목록 |
+| `_pages/books.html` | Books I Live With: 독서 이야기와 2024·2025년 독서 목록 |
+| `_pages/math-path.html` | A Nonlinear Path to Mathematics: 경영학에서 수학으로 옮겨온 과정 |
+| `_pages/squat-think-repeat.html` | Squat, Think, Repeat: 운동 이야기 |
+| `_layouts/personal.html` | Others 목록과 개별 글의 공통 레이아웃 |
 
 GitHub에서 해당 파일을 열고 연필 버튼으로 수정한 뒤 Commit changes를 누르면 홈페이지가 갱신됩니다. CV·슬라이드·강의록을 같은 경로와 파일명으로 교체하면 기존 링크가 새 파일로 연결됩니다. 홈페이지 본문의 내용과 원고 상태는 `_pages/about.html`에서도 따로 수정해야 합니다.
 

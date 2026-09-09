@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | escape }}">
+  <meta name="theme-color" content="#ffffff">
+  <title>{{ page.title | escape }} | Dohyeon Kim</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="/">Dohyeon Kim</a>
+      <nav aria-label="Main navigation">
+        <a href="/#about">About</a>
+        <a href="/#research">Research</a>
+        <a href="/#talks">Talks &amp; visits</a>
+        <a href="/#teaching">Teaching</a>
+        <a href="/others/"{% if page.url == '/others/' %} aria-current="page"{% endif %}>Others</a>
+        <a href="/assets/CV_Dohyeon_Kim.pdf">CV <span class="file-type">PDF</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="page personal-page">
+    <article class="personal-article">
+      <header class="personal-heading">
+        {% unless page.url == '/others/' %}<p class="personal-back"><a href="/others/">Back to Others</a></p>{% endunless %}
+        <h1>{{ page.title }}</h1>
+      </header>
+      <div class="personal-body">{{ content }}</div>
+    </article>
+    <footer class="site-footer"><p>© 2026 Dohyeon Kim</p><a href="/">Academic homepage</a></footer>
+  </main>
+</body>
+</html>
