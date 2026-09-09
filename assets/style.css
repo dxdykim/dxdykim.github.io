@@ -81,6 +81,9 @@ summary { padding: .95rem .1rem; color: var(--heading); cursor: pointer; font-si
 .course-code { display: block; font-size: .82rem; font-weight: 500; color: var(--muted); margin-bottom: .18rem; }
 .courses h4 { font-size: 1rem; }
 .courses p { font-size: .94rem; margin: .4rem 0 .1rem; }
+.course-materials { margin-top: .8rem; padding-left: 1rem; border-left: 2px solid var(--line); }
+.course-materials p + p { margin-top: .75rem; }
+.material-status { display: block; color: var(--muted); font-size: .875rem; margin-top: .1rem; }
 .education { list-style: none; }
 .education li { margin-bottom: 1.4rem; }
 .education p { margin: .2rem 0 0; font-size: 1rem; }
