@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/2023-winter-teaching-2
 venue: "Caltech, CMS"
-date: 2023 Winter
+date: 2023-01-01 # Winter 2023 (sorting date)
 location: "Caltech, CMS"
 ---
 

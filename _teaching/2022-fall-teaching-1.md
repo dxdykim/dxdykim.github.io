@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/2022-fall-teaching-1
 venue: "Caltech, CMS department"
-date: 2022-Fall
+date: 2022-09-01 # Fall 2022 (sorting date)
 location: "Pasadena, CA"
 ---
 

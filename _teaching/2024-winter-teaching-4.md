@@ -4,7 +4,7 @@ collection: teaching
 type: "Upper Undergraduate / Graduate course"
 permalink: /teaching/2024-winter-teaching-4
 venue: "Caltech, CMS"
-date: 2024 Winter
+date: 2024-01-01 # Winter 2024 (sorting date)
 location: "Caltech, CMS"
 ---
 
